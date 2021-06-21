@@ -1,0 +1,23 @@
+{
+  "name": "@spacingbat3/gtk4web",
+  "version": "0.1.0",
+  "description": "GTK integrations for web-based software.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc"
+  },
+  "author": {
+    "name": "SpacingBat3",
+    "email": "npm@spacingbat3.anonaddy.com",
+    "url": "https://github.com/SpacingBat3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "node-gtk": "^0.9.0"
+  }
+}
