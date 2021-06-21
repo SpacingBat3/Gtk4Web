@@ -1,3 +1,8 @@
+/*
+ * Check if using Electron and if so, check if `node-gtk` was
+ * properly built for it
+ */
+
 // Check if current platform is supported.
 if(process.platform!=='linux' && process.platform!=='darwin') {
   console.error("ERROR: Unsupported platform '"+process.platform+"'!")

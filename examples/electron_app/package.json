@@ -1,0 +1,27 @@
+{
+  "name": "sample_webapp",
+  "version": "1.0.0",
+  "description": "An example Electron web application, which uses Gtk4Web library.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install": "electron-rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "example.com"
+  },
+  "keywords": [
+    "sample",
+    "template"
+  ],
+  "author": "SpacingBat3",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "electron-rebuild": "^2.3.5"
+  },
+  "dependencies": {
+    "@spacingbat3/gtk4web": "file:../.."
+  }
+}
